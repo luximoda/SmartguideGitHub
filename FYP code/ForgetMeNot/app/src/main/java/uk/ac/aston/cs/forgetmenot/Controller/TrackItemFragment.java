@@ -395,6 +395,7 @@ public class TrackItemFragment extends Fragment implements OnMapReadyCallback,
         mGoogleApiClient.disconnect();
     }
 
+    //Allows for the client to be disconnected when the fragment is stopped
     @Override
     public void onStop() {
         if (mGoogleApiClient.isConnected()) {
