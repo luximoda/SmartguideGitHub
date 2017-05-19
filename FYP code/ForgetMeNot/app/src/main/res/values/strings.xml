@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ForgetMeNot</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="record_button">Record</string>
+    <string name="fast_record_button">Fast</string>
+    <string name="find_button">Find</string>
+    <string name="fast_find_button">Fast</string>
+    <string name="settings_button">Settings</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_record_tabbed">RecordTabbedActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tabbed_record">TabbedRecordActivity</string>
+</resources>

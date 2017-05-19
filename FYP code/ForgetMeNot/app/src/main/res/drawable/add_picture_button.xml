@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF"/>
+            <stroke
+                android:color="#3385ff"
+                android:width="5dp"/>
+            <corners
+                android:radius="0dp"
+                />
+            <padding android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"/>
+
+
+        </shape>
+    </item>
+   <item
+        android:id="@+id/half_overlay"
+        android:drawable="@drawable/smallcamera"
+        android:width="20dp"
+        android:height="20dp"
+        android:left="10dp"
+        android:gravity="center"
+        />
+   <item
+        android:id="@+id/plus"
+        android:drawable="@drawable/smallplus"
+        android:top="2dp"
+        android:left="15dp"
+        android:width="10dp"
+        android:height="10dp"
+
+
+        />
+
+
+</layer-list>
+
+
+
+

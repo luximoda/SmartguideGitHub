@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/perfectblue2"
+    android:id="@+id/find_activity_container"
+    tools:context="uk.ac.aston.cs.forgetmenot.Controller.FindActivity"
+    tools:showIn="@layout/app_find_toolbar"
+    >
+
+
+
+    <!--  <fragment
+          android:name="uk.ac.aston.cs.forgetmenot.Controller.CameraFragment"
+          android:id="@+id/fragment_container"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginTop="90dp"
+          tools:layout="@layout/camera_fragment" /> -->
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="54dp"
+        android:id="@+id/find_frame_container"/>
+
+</FrameLayout>

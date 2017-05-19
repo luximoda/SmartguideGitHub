@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <CheckBox
+        android:text="Notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notes" />
+
+    <CheckBox
+        android:text="Pictures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pictures" />
+
+    <CheckBox
+        android:text="Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location" />
+
+    <CheckBox
+        android:text="Voice Recording"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/voice_recording" />
+        -->
+    <Button
+        android:text="Camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/camera_button"
+       android:layout_marginLeft="60dp"/>
+
+    <Button
+        android:text="Note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_button"
+       android:layout_marginLeft= "50dp"/>
+</LinearLayout>

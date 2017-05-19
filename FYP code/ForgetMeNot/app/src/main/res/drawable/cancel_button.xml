@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF"/>
+            <stroke
+                android:color="#b30000"
+                android:width="5dp"/>
+            <corners
+                android:radius="20dp"/>
+            <padding android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"/>
+
+
+        </shape>
+    </item>
+    <item
+        android:id="@+id/half_overlay"
+        android:drawable="@drawable/cancelicon"
+        android:width="50dp"
+        android:height="50dp"
+        android:gravity="center"
+        />
+
+
+</layer-list>
+
+
+
+

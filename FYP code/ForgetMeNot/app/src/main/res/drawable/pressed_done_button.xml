@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape>
+            <solid android:color="#99ff99"/>
+            <stroke
+                android:color="#009900"
+                android:width="5dp"/>
+            <corners
+                android:radius="20dp"/>
+            <padding android:bottom="15dp"
+                android:left="15dp"
+                android:right="15dp"
+                android:top="15dp"/>
+
+
+        </shape>
+    </item>
+    <item
+        android:id="@+id/half_overlay"
+        android:drawable="@drawable/nextdone"
+        android:width="50dp"
+        android:height="50dp"
+        android:gravity="center"
+        />
+
+
+</layer-list>
+
+
+
+

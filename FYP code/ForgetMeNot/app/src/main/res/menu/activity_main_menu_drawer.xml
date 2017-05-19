@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_record"
+            android:icon="@drawable/recording2"
+            android:title="Record" />
+        <item
+            android:id="@+id/nav_find"
+            android:icon="@drawable/spyglass"
+            android:title="Find" />
+
+    </group>
+
+
+
+</menu>

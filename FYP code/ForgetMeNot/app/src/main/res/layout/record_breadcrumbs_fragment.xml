@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:weightSum="4"
+        android:background="@color/lightskyblue1">
+
+
+
+
+        <Button
+
+            android:background="@drawable/add_note_button"
+            android:textSize="11dp"
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:id="@+id/note_button"
+            android:weightSum="1"
+            />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:typeface="monospace"
+            android:text=">"
+            android:id="@+id/first_greather_than"
+            android:weightSum="1"/>
+
+        <Button
+
+            android:textSize="11dp"
+            android:background="@drawable/add_picture_button"
+
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:id="@+id/camera_button"
+            android:weightSum="1"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:typeface="monospace"
+            android:text=">"
+            android:id="@+id/second_greather_than"
+            android:weightSum="1"/>
+
+        <Button
+            android:textSize="11dp"
+
+            android:background="@drawable/add_location_button"
+            android:layout_width="87dp"
+            android:layout_height="32dp"
+            android:id="@+id/map_button"
+            android:weightSum="1"/>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:typeface="monospace"
+            android:text=">"
+            android:id="@+id/third_greather_than"
+            android:weightSum="1"/>
+
+        <Button
+
+            android:background="@drawable/preview_button"
+            android:textSize="11dp"
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:id="@+id/preview_button"
+            android:weightSum="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/camera_fragment"
+    android:layout_marginTop="40dp"
+
+
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/no_picture_displayed"
+        android:scaleType="fitXY"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/image_view"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="51dp"
+       >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:background="@drawable/state_cancel_button"
+                android:id="@+id/cancel_button"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                android:text="Cancel"/>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="28dp">
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/state_camera_button"
+                android:id="@+id/take_picture_button"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                android:text="use camera"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            >
+
+            <Button
+                android:layout_width="80dp"
+                android:background="@drawable/state_next_button"
+                android:layout_height="80dp"
+                android:id="@+id/next_button_2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                android:text="Next"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
